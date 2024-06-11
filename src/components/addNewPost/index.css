@@ -1,0 +1,28 @@
+.submit-button{
+    height:33px;
+    width:99px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: brown;
+    border-radius: 13px;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+.adding-post-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.adding-post-form{
+    background-color: aquamarine;
+    border-radius: 12px;
+    height:350px;
+    width:300px;
+    padding:12px;
+    box-sizing: border-box;
+    padding-top: 44px;
+}

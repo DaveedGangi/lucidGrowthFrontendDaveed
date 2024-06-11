@@ -1,0 +1,65 @@
+.user-profile-image{
+    height:130px;
+    width:130px;
+    border-radius: 50%;
+    border: 2px solid rgb(17, 17, 17);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.log-out-button{
+    background-color: rgb(6, 14, 28);
+    color:chocolate;
+    border-radius: 9px;
+    height:33px;
+    width:99px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 130%;
+    width:100%;
+    box-sizing: border-box;
+
+
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e4efeb;
+    font-weight: 600;
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+    background-size:cover;
+    width: 100%;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+.home-button{
+    background-color: rgb(6, 14, 28);
+    color:chocolate;
+    border-radius: 9px;
+    height:33px;
+    width:99px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
