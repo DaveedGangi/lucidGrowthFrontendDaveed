@@ -72,7 +72,7 @@ class Login extends Component {
                 <label htmlFor="password">Password:&nbsp; </label>
                     <input id="password" value={password} type="password" placeholder="Enter Password" onChange={this.changePassword}/>
                     <br/>
-                    <p>{errorMsg}</p>
+                    <p className='error-msg'>{errorMsg}</p>
                     <br/>
                     <button className='submit' type="submit">Submit</button>
                 </form>
