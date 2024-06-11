@@ -1,8 +1,10 @@
 import {Component} from'react';
 
-import {Link} from "react-router-dom"
+import {Link,Redirect} from "react-router-dom"
 
 import {DNA} from "react-loader-spinner"
+
+import Cookies from "js-cookie"
 
 import swal from 'sweetalert'
 
@@ -183,6 +185,11 @@ class Home extends Component {
     }
 
     render() {
+
+        const jwtToken=Cookies.get("jwt_token");
+        if(jwtToken===undefined){
+            return <Redirect to="/login"/>
+        }
         return (
             <div>
                
